@@ -1,0 +1,53 @@
+baseurl = "https://adenparker.com/"
+DefaultContentLanguage = "en"
+title = "Aden Parker"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = false
+
+#[permalinks]
+#  post = "post/:year/:month/:day/:title/"
+
+[Params]
+  subtitle = "This is my blog."
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  rss = true
+  comments = false
+  #staticman_api = "https://api.staticman.net/v2/entry/DavidParkerDr/goparker/source/comments" #Add staticman API URL to enable staticman comments
+  
+ # recaptcha_siteKey = "6LciilsUAAAAAJFGp-Bnlh13W80eAtCoUJnGMeuq"
+ # recaptcha_secret = "6LciilsUAAAAALuklAhLdtYdtrCBxUaEZg7dLkWI"
+  
+  readingTime = true
+  socialShare = false
+
+
+[Author]
+  name = "Aden Parker"
+  website = "https://adenparker.com"
+  #email = "david@goparker.com"
+  github = "adenparker"
+  #twitter = "davidparkerdr"
+  #linkedin = "davidparkerdr"
+  #youtube = "user/DavidParkerDr"
+  
+
+#[[menu.main]]
+#    name = "About"
+#    url = "page/about"
+#    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "post"
+    weight = 2
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
+
